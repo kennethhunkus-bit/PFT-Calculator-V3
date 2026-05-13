@@ -1,4 +1,4 @@
-const CACHE = 'uscg-pft-v2';
+const CACHE = 'uscg-pft-v3';
 const ASSETS = [
   './',
   './index.html',

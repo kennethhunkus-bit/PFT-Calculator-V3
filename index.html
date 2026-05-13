@@ -69,12 +69,12 @@ body {
   gap: 12px;
 }
 .header-badge {
-  width: 42px; height: 42px;
-  background: var(--red);
-  border-radius: 50%;
-  display: flex; align-items: center; justify-content: center;
-  font-size: 22px;
+  width: 52px; height: 52px;
   flex-shrink: 0;
+}
+.header-badge img {
+  width: 100%; height: 100%;
+  object-fit: contain;
 }
 .header-text h1 {
   font-family: 'Barlow Condensed', sans-serif;
@@ -483,7 +483,7 @@ input:focus { border-color: var(--navy-light); box-shadow: 0 0 0 3px rgba(42,82,
 <body>
 
 <header class="app-header">
-  <div class="header-badge">⚓</div>
+  <div class="header-badge"><img src="icon-192.png" alt="JPO NASOC San Angelo PFT Score Card"></div>
   <div class="header-text">
     <h1>USCG PFT CALCULATOR</h1>
     <p>Physical Readiness Program · 26 MAR 2026</p>
